@@ -2,6 +2,7 @@
 
 * Студент: [{{userName}}]({{userProfile}}).
 * Наставник: `Неизвестно`.
+* Сайт [Проект седона](https://schnitzer1989.github.io/sedona-33/)
 
 ---
 
