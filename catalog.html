@@ -47,80 +47,82 @@
   </header>
 
   <main class="page-main">
-    <header class="inner-header">
-      <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html">
-            <span class="visually-hidden">Главная</span>
-          </a>
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" aria-current="page">Гостиницы</a>
-        </li>
-      </ul>
-    </header>
+    <div class="page-main-column">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+              <span class="visually-hidden">Главная</span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" aria-current="page">Гостиницы</a>
+          </li>
+        </ul>
+      </header>
 
-    <section class="filter">
-      <h2 class="visually-hidden">Фильтр списка гостиниц</h2>
-      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
+      <section class="filter">
+        <h2 class="visually-hidden">Фильтр списка гостиниц</h2>
+        <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
 
-        <fieldset class="filter-fieldset">
-          <legend class="filter-title">Инфраструктура:</legend>
-          <ul class="filter-list">
-            <li class="filter-item">
-              <label class="control">
-                <input class="control-input" type="checkbox" name="pool" checked>
-                <span class="control-text">Бассейн</span>
-              </label>
-            </li>
-            <li class="filter-item">
-              <label class="control">
-                <input class="control-input" type="checkbox" name="parking" checked>
-                <span class="control-text">Парковка</span>
-              </label>
-            </li>
-            <li class="filter-item">
-              <label class="control">
-                <input class="control-input" type="checkbox" name="wi-fi">
-                <span class="control-text">Wi-Fi</span>
-              </label>
-            </li>
-          </ul>
-        </fieldset>
+          <fieldset class="filter-fieldset">
+            <legend class="filter-title">Инфраструктура:</legend>
+            <ul class="filter-list">
+              <li class="filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="pool" checked>
+                  <span class="control-text">Бассейн</span>
+                </label>
+              </li>
+              <li class="filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="parking" checked>
+                  <span class="control-text">Парковка</span>
+                </label>
+              </li>
+              <li class="filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="wi-fi">
+                  <span class="control-text">Wi-Fi</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
 
-        <fieldset class="filter-fieldset">
-          <legend class="filter-title">Тип жилья:</legend>
-          <ul class="filter-list">
-            <li class="filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="apartament-type" value="hotel" checked>
-                <span class="control-text">Гостиница</span>
-              </label>
-            </li>
-            <li class="filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="apartament-type" value="motel">
-                <span class="control-text">Мотель</span>
-              </label>
-            </li>
-            <li class="filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="apartament-type" value="apartament">
-                <span class="control-text">Апартаменты</span>
-              </label>
-            </li>
-          </ul>
-        </fieldset>
+          <fieldset class="filter-fieldset">
+            <legend class="filter-title">Тип жилья:</legend>
+            <ul class="filter-list">
+              <li class="filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="apartament-type" value="hotel" checked>
+                  <span class="control-text">Гостиница</span>
+                </label>
+              </li>
+              <li class="filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="apartament-type" value="motel">
+                  <span class="control-text">Мотель</span>
+                </label>
+              </li>
+              <li class="filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="apartament-type" value="apartament">
+                  <span class="control-text">Апартаменты</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
 
-        <fieldset class="filter-fieldset">
-          <legend class="filter-title">Стоимость, ₽:</legend>
-        </fieldset>
+          <fieldset class="filter-fieldset">
+            <legend class="filter-title">Стоимость, ₽:</legend>
+          </fieldset>
 
-        <button class="button button-filter" type="submit">Применить</button>
-        <button class="button button-reset" type="reset">Сбросить</button>
-      </form>
-    </section>
+          <button class="button button-filter" type="submit">Применить</button>
+          <button class="button button-reset" type="reset">Сбросить</button>
+        </form>
+      </section>
+    </div>
 
     <section class="catalog">
       <h2 class="catalog-title">Найдено гостиниц: 38</h2>
@@ -152,7 +154,8 @@
       <ul class="card">
         <li class="card-item">
           <a class="card-link" href="#">
-            <img class="card-image" src="images/cards/hotel-1.jpg" alt="Ушелье с видом на звезды" width="300" height="212">
+            <img class="card-image" src="images/cards/hotel-1.jpg" alt="Ушелье с видом на звезды" width="300"
+              height="212">
             <h3 class="card-title">Amara Resort & Spa</h3>
           </a>
           <p class="card-description">
@@ -186,7 +189,8 @@
 
         <li class="card-item">
           <a class="card-link" href="#">
-            <img class="card-image" src="images/cards/hotel-3.jpg" alt="Гостиница перепелка в пустыне" width="300" height="212">
+            <img class="card-image" src="images/cards/hotel-3.jpg" alt="Гостиница перепелка в пустыне" width="300"
+              height="212">
             <h3 class="card-title">Desert Quail Inn</h3>
           </a>
           <p class="card-description">
@@ -241,7 +245,7 @@
       </ul>
     </section>
 
-    <section class="subscribe">
+    <section class="subscribe subscribe-catalog">
       <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
